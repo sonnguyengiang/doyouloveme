@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center><h1>Do you love me</h1>
+    <button id="nutyes" onclick="a()">yes</button>   <button id="nutno" style="position: absolute" onmouseover="b()">no</button></center>
+<script>
+    function a(){
+        alert("<3")
+    }
+    function b(){
+        let x=Math.floor(Math.random()*window.innerWidth);
+        let y=Math.floor(Math.random()*window.innerHeight);
+        document.getElementById('nutno').style.left= x + "px"
+        document.getElementById('nutno').style.top= y + "px"
+    }
+</script>
+</body>
+</htm>
